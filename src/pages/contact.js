@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <div style={containerStyle}>
       <h1>Contact Us</h1>
-      <p>Phone: 123456789</p>
+      <p>phone: 123456789</p>
       <p>Email: agrozone@example.com</p>
     </div>
   );

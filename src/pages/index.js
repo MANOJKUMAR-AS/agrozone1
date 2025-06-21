@@ -1,6 +1,11 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import { useState } from 'react';
+import CropSelector from '../components/Cropselector';
+import CropDetails from '../components/Cropdetails';
+
+
 
 export default function Home() {
   return (
