@@ -4,8 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import CropSelector from '../components/Cropselector';
 import CropDetails from '../components/Cropdetails';
-
-
+import UploadFile from '../components/UploadFile'; // ✅ Add this line
 
 export default function Home() {
   return (
@@ -47,6 +46,11 @@ export default function Home() {
           src="https://cdn.pixabay.com/photo/2017/06/23/01/57/agriculture-2433012_1280.jpg"
           alt="Farm"
         />
+      </section>
+
+      <section style={{ padding: "2rem", textAlign: "center" }}>
+        {/* ✅ Firebase Upload Feature */}
+        <UploadFile />
       </section>
 
       <footer className={styles.footer}>
